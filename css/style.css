@@ -41,6 +41,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 72px;
 }
 a {
   color: #000;
@@ -49,17 +50,24 @@ a {
 
 .place {
   font-size: 18px;
+  margin-bottom: 21px;
 }
 
+.offer {
+  /* margin-bottom: 98px; intro го  margin-top: 98px; жазган учун коментке алып койдум  */
+  margin-top: 52px;
+}
 .offer-title {
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 0.07em;
+  /* margin-bottom: 21px; */
 }
 
 .desc {
   font-size: 18px;
   margin-bottom: 21px;
+  margin-top: 21px;
 }
 
 .btn {
@@ -87,4 +95,13 @@ a {
 }
 .intro-title {
   font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+.bali-img {
+  /* margin-right: 294px; */
 }
